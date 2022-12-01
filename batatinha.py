@@ -1,10 +1,10 @@
 import numpy as np
 
-###################################################################
+######################################################################################################################################
 
 arquivo = input("Insira o nome do arquivo a ser aberto: ")
 
-##################################################################
+#####################################################################################################################################
 
 print("Insira as faixas de energias, em eV, que você deseja trabalhar:")
 energ_Inicial = float(input("Energia inicial: "))
@@ -16,7 +16,7 @@ print("Exemplo: \nPara aumentar 1%, digite 1. Para diminuir 1%, digite -1.")
 
 porcentagem = float(input("Insira a porcentagem: "))
 
-##################################################################
+#####################################################################################################################################
 
 def num_Dados(arquivo):
 
@@ -52,7 +52,7 @@ posicao_sig_inicial = float(sig)/4 + 12 #onde começam as seções de choque
 #é importante definir ela pois o primeiro valor a partir disso não é um dado de seção de choque
 #mas sim uma quantidade informativa de quantas seções de choque desse tipo tem no arquivo.
 
-##################################################################
+#####################################################################################################################################
 
 #ESSA FUNÇÃO RETORNA A LINHA E A POSIÇÃO NELA DAS ENERGIAS 
 #MAIS PRÓXIMAS ÀS QUE O USUÁRIO PEDIU
@@ -125,7 +125,7 @@ posicao_fim = [posicao_fim[0], posicao_fim[1]+1]
 if posicao_fim[1]+1 > 4:
   posicao_fim = [posicao_fim[0]+1, 0]
 
-##################################################################
+#####################################################################################################################################
 
 nome_novo = "resultado_" + arquivo
 
@@ -187,5 +187,5 @@ with open(arquivo, "r") as arq: #apenas abrindo o arquivo original
 
       resp.write(linha_real)
 
-##################################################################
+#####################################################################################################################################
 
