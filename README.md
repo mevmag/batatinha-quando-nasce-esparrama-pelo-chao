@@ -1,6 +1,7 @@
 # batatinha-quando-nasce-esparrama-pelo-chao
 
-Trabalho final da disciplina de Introdução à Computação em Física
+Trabalho final da disciplina de Introdução à Computação em Física.
+O nome do código em Python que corresponde a esse projeto é "batatinha.py".
 
 
 **O QUE ESSE PROGRAMA FAZ?**
