@@ -14,3 +14,12 @@ Trabalho final da disciplina de Introdução à Computação em Física
       <> Um arquivo do tipo ".ace" formatado contendo dados de energias e seções de choque para certo isótopo.
 
 *   Ele retorna um arquivo com a mesma formatação original, e com os mesmos dados originais, exceto para as seções de choque correspondentes à faixa de energia informada pelo usuário. Para essas seções de choque, os valores retornados serão a % inserida maiores ou menores que os originais.
+
+
+**PARA QUÊ ESSE RESULTADO SERVE?**
+
+*    Todas as seções de choque são obtidas por meios experimentais ou interpolações realizadas através de dados prévios. Não há, ainda, uma forma teórica de calculá-las, especialmente para todas as faixas de energias e para todos os isótopos. Por conta disso, esses dados contêm inerentemente um erro de medição. A questão importante a se fazer é o quanto esses erros interferem em um sistema que utiliza os valores das seções de choque como base para os cálculos que permitem o seu funcionamento. 
+
+*    Com o arquivo novo contendo seções de choques diferentes das originais, é possível utilizar outros programas, como o Serpent, para realizar simulações de sistemas nucleares com esses novos dados. Isso permite avaliar o quão sensível é um certo sistema para pequenas flutuações das seções de choque, e o quanto o resultado final (observado em função da criticalidade, por exemplo) é alterado para o caso de utilizarmos bibliotecas de dados com erros experimentais de certa grandeza, que é importante também pelo fato de que diferentes bibliotecas podem possuir discrepâncias entre si.
+
+
