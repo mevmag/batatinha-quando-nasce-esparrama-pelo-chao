@@ -151,8 +151,12 @@ with open(arquivo, "r") as arq: #apenas abrindo o arquivo original
         valores = linha.split()
 
         for j in range(0,4):
+          
+          if(valores[j]==str(energ) and j==0): #se for o primeiro valor da linha, e esse valor
+              #for justamente a quantidade de dados que tem, o espaçamento é maior
+              valores[j] = "               " + valores[j]         
 
-          if(i!=inicio and i!=fim):
+          elif(i!=inicio and i!=fim):
           
             valor = '{:.11E}'.format(float(valores[j])*(1+porc))
 
