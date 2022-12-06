@@ -1,6 +1,4 @@
-import numpy as np
-
-######################################################################################################################################
+#####################################################################################################################################
 
 arquivo = input("Insira o nome do arquivo a ser aberto: ")
 
@@ -167,6 +165,9 @@ with open(arquivo, "r") as arq: #apenas abrindo o arquivo original
 
               valores[j] = str(valor)
               valores[j] = "   " + valores[j]
+            
+            else:
+              valores[j] = "   " + valores[j]
 
           elif(i==fim):
             if(j<=posicao_fim[1]):
@@ -174,6 +175,9 @@ with open(arquivo, "r") as arq: #apenas abrindo o arquivo original
 
               valores[j] = str(valor)
               valores[j] = "   " + valores[j]  
+
+            else:
+              valores[j] = "   " + valores[j]
 
 
         linha_real = "".join(valores)
@@ -188,4 +192,3 @@ with open(arquivo, "r") as arq: #apenas abrindo o arquivo original
       resp.write(linha_real)
 
 #####################################################################################################################################
-
