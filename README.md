@@ -24,3 +24,5 @@ O nome do código em Python que corresponde a esse projeto é "batatinha.py".
 *    Com o arquivo novo contendo seções de choques microscópicas diferentes das originais, é possível utilizar outros programas, como o software Serpent, para realizar simulações de sistemas nucleares com esses novos dados. Isso permite avaliar o quão sensível é um certo sistema para pequenas flutuações das seções de choque microscópicas, e o quanto o resultado final (observado em função da criticalidade, por exemplo) é alterado para o caso de utilizarmos bibliotecas de dados diferentes, que é importante também pelo fato de que diferentes bibliotecas podem possuir discrepâncias entre si.
 
 
+
+*    O arquivo "pin" é um arquivo que o Serpent roda. No nosso caso, fizemos para simular as diferenças geradas pela mudança da seção de choque microscópica, para um pin (tubo) formado por uma mistura de U-235 e U-238 no combustível, revestimento de Zircônio natural, e rodeado por água leve para resfriamento (H2O). As mudanças de seções de choque microscópicas foram feitas para o arquivo .ace do U-235, disponibilizado no repositório. 
