@@ -4,7 +4,7 @@ arquivo = input("Insira o nome do arquivo a ser aberto: ")
 
 #####################################################################################################################################
 
-print("Insira as faixas de energias, em eV, que você deseja trabalhar:")
+print("Insira as faixas de energias, em MeV, que você deseja trabalhar:")
 energ_Inicial = float(input("Energia inicial: "))
 energ_Final = float(input("Energia final: "))
 
