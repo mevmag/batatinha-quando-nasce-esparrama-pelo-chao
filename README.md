@@ -8,7 +8,7 @@ O nome do código em Python que corresponde a esse projeto é "batatinha.py".
 
 *   Esse programa recebe:
 
-      <> Valores de range de energia (apenas o número, em eV) do usuário, sendo 1 valor para a energia inicial e 1 valor para a energia final
+      <> Valores de range de energia (apenas o número, em MeV) do usuário, sendo 1 valor para a energia inicial e 1 valor para a energia final
       
       <> Um valor percentual que deve ser acrescido ou subtraído dos valores de seção de choque para a faixa de energia selecionada
       
